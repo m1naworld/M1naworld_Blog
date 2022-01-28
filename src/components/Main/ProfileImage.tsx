@@ -4,10 +4,12 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 // 자신이 원하는 프로필 이미지 링크로 설정해주세요.
 const PROFILE_IMAGE_LINK =
-  "../images/848EBE45-857E-45E7-8784-40C292CE843E_1_105_c.png"
-  const ProfileImageWrapper = styled.img`
-  width: 120px;
-  height: 120px;
+  "images/C96FEC46-58DC-4324-A01A-B28E214FED8D_1_102_o.jpeg"
+
+
+const ProfileImageWrapper = styled.img`
+  width: 200px;
+  height: 200px;
   margin-bottom: 30px;
   border-radius: 50%;
 `

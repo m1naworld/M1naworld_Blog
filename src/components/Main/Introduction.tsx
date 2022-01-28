@@ -5,7 +5,7 @@ import ProfileImage from "./ProfileImage";
 
 const Background = styled.div `
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(to right, #9198e5, #e66465);
     color: #ffffff;
 `
 
@@ -14,7 +14,7 @@ const Wrapper = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 768px;
+    width: 800px;
     height: 400px;
     margin: 0 auto;
 `
@@ -36,7 +36,7 @@ const Introduction: FunctionComponent = () => {
                 <ProfileImage />
 
                 <div>
-                    <SubTitle>Nice to Meet You,</SubTitle>
+                    <SubTitle>Welcome to M1naWorld</SubTitle>
                     <Title>I'm Junior BACKEND Developer Mina</Title>
                 </div>
             </Wrapper>
